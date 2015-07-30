@@ -5,6 +5,7 @@ class ProducesController < ApplicationController
   # GET /produces.json
   def index
     @produces = Produce.all
+    render layout: "application2.html.erb"
   end
 
   # GET /produces/1

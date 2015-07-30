@@ -7,7 +7,7 @@ ul {
 }
 
 
-body {
+body.second {
   background-image: url('//criticalexaminer.files.wordpress.com/2014/04/super-market-vegetable-rainbow-display.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
