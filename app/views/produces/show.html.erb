@@ -15,5 +15,17 @@
   <%= @produce.formatted_price %>
 </p>
 
+<h3>Reviews</h3>
+<% @produce.reviews.each do |review| %>
+<p>
+  <%= review.comments %>
+  <br>
+  Added on: <%= review.created_at %>
+</p>
+<% end %>
+
+<h3>New Review</h3>
+<%= render 'reviews/form'%>
+
 <%= link_to 'Edit', edit_produce_path(@produce) %> |
 <%= link_to 'Back', produces_path %>

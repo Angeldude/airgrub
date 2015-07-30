@@ -10,6 +10,7 @@ class ProducesController < ApplicationController
   # GET /produces/1
   # GET /produces/1.json
   def show
+    @review = Review.new
   end
 
   # GET /produces/new

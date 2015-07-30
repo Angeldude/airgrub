@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  comments: MyText
+  produce_id: 
+
+two:
+  comments: MyText
+  produce_id: 

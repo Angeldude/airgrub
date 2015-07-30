@@ -1,4 +1,5 @@
 class Produce < ActiveRecord::Base
+  has_many :reviews
   validates :name, :description, presence: true
   validates :price_in_cents, numericality: { integer: true,
                                              greater_than: 0 }
