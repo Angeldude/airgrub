@@ -8,7 +8,7 @@ ul {
 
 
 body.second {
-  background-image: url('//criticalexaminer.files.wordpress.com/2014/04/super-market-vegetable-rainbow-display.jpeg');
+  background-image: url('https://criticalexaminer.files.wordpress.com/2014/04/super-market-vegetable-rainbow-display.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -23,7 +23,7 @@ body.second {
   border-style: dashed;
   border-color: green;
   margin: 2em;
-  background-image: url('//www.constructionweekonline.com/pictures/CG%20pix%202/drone/banner_1.gif');
+  background-image: url('http://www.constructionweekonline.com/pictures/CG%20pix%202/drone/banner_1.gif');
   background-size: cover;
   background-position: center;
 }
@@ -48,6 +48,29 @@ div {
   border-color: #339933;
   border-radius: 1.4em;
 
+}
+
+#tabletitle {
+  background-color: orange;
+  border-radius: 1em;
+  border-color: black;
+  border-style: groove;
+  text-align: center;
+}
+
+table {
+  background-color: orange;
+  border-radius: 1em;
+  border-style: groove;
+  border-color: black;
+  text-align: center;
+}
+
+#newproduce {
+  background-color: orange;
+  border-radius: 1em;
+  border-color: black;
+  text-align: center;
 }
 
 /*#foodlist:hover {

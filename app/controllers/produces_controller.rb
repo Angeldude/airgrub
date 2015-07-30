@@ -12,11 +12,13 @@ class ProducesController < ApplicationController
   # GET /produces/1.json
   def show
     @review = Review.new
+    render layout: "application2.html.erb"
   end
 
   # GET /produces/new
   def new
     @produce = Produce.new
+    render layout: "application2.html.erb"
   end
 
   # GET /produces/1/edit

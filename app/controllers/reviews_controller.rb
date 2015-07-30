@@ -10,6 +10,7 @@ class ReviewsController < ApplicationController
   # GET /reviews/1
   # GET /reviews/1.json
   def show
+    render layout: "application2.html.erb"
   end
 
   # GET /reviews/new
