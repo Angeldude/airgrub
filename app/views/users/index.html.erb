@@ -1,1 +1,16 @@
-<h1> Testing for index!</h1>
+<header id="header">
+  <h1>AirGrub</h1>
+  <p>
+    Dropping one meal at a time
+  </p>
+</header>
+
+<p id="MainMenu">
+  <ul class="DeliveryOptions">
+    <li>
+      <%= link_to "Create profile", new_user_path %>
+    </li>
+    <li>
+      <%= link_to 'Order Now', produces_path %>
+    </li>
+  </p>

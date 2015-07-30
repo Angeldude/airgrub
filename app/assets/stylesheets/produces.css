@@ -2,3 +2,54 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+ul {
+  list-style: none;
+}
+
+
+body {
+  background-image: url('https://criticalexaminer.files.wordpress.com/2014/04/super-market-vegetable-rainbow-display.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#order {
+  color: #FF5930;
+  text-shadow: 1em 1em 1em black;
+  font-size: 1.4em;
+  background-color: #CC7A00;
+  border-radius: 1em;
+  border-style: dashed;
+  border-color: green;
+  margin: 2em;
+  background-image: url('http://www.constructionweekonline.com/pictures/CG%20pix%202/drone/banner_1.gif');
+  background-size: cover;
+  background-position: center;
+}
+
+header p {
+  margin:2em;
+  color: #CC7A00;
+
+}
+div {
+  border-style: ridge;
+  border-color: #999999;
+  border-radius: 1.2em;
+  background-color: #FFA347;
+  font-size: 1.5em;
+  opacity: 20%;
+  color: red;
+}
+#foodlist {
+  margin: 2em;
+  border-style: double;
+  border-color: #339933;
+  border-radius: 1.4em;
+
+}
+
+/*#foodlist:hover {
+  color: red;
+}*/
