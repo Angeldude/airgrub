@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @produce.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @produce.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @produce.formatted_price %>
+</p>
+
+<%= link_to 'Edit', edit_produce_path(@produce) %> |
+<%= link_to 'Back', produces_path %>
