@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20150730174143) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "produces", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
@@ -28,7 +31,7 @@ ActiveRecord::Schema.define(version: 20150730174143) do
     t.datetime "updated_at", null: false
   end
 
-  add_index "reviews", ["produce_id"], name: "index_reviews_on_produce_id"
+  add_index "reviews", ["produce_id"], name: "index_reviews_on_produce_id", using: :btree
 
   create_table "users", force: :cascade do |t|
     t.string   "name"
@@ -36,4 +39,5 @@ ActiveRecord::Schema.define(version: 20150730174143) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "reviews", "produces"
 end
