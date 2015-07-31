@@ -23,6 +23,7 @@ class ProducesController < ApplicationController
 
   # GET /produces/1/edit
   def edit
+    render layout: "application2.html.erb"
   end
 
   # POST /produces

@@ -6,15 +6,18 @@ ul {
   list-style: none;
 }
 
+ol {
+  list-style: circle;
+}
 
-body.second {
+body {
   background-image: url('//criticalexaminer.files.wordpress.com/2014/04/super-market-vegetable-rainbow-display.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
-#order{
+#order {
   color: #FF5930;
   text-shadow: 1em 1em 1em black;
   font-size: 1.4em;
@@ -73,6 +76,26 @@ table {
   text-align: center;
 }
 
+#faq {
+  background-color: orange;
+  border-radius: 1em;
+  border-color: black;
+  text-align: center;
+  color: black;
+}
+
+#map {
+  margin: 1em;
+  padding: auto;
+  align-self: center;
+  border-radius: 0.2em;
+  align-content: center;
+}
+
+#image{
+  width: 20em;
+  height: 20em;
+}
 /*#foodlist:hover {
   color: red;
 }*/

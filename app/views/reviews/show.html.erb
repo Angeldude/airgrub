@@ -1,3 +1,4 @@
+<div id="faq">
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -9,10 +10,13 @@
   <strong>Produce:</strong>
   <%= @review.produce.name %>
 </p>
+</div>
 
+<div class="button">
 <%= link_to 'Edit', edit_review_path(@review) %> |
 <% if @review.produce.nil? %>
 <%= link_to 'Back', reviews_path %>
 <% else %>
 <%= link_to 'Back', @review.produce %>
 <% end %>
+</div>
