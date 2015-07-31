@@ -19,6 +19,7 @@ body.second {
   text-shadow: 1em 1em 1em black;
   font-size: 1.4em;
   background-color: #CC7A00;
+  opacity: 0.2;
   border-radius: 1em;
   border-style: dashed;
   border-color: green;
