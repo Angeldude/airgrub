@@ -23,7 +23,7 @@ body.second {
   border-style: dashed;
   border-color: green;
   margin: 2em;
-  background-image: url('banner.jpg');
+  background-image: url('images/banner.jpg');
   background-size: cover;
   background-position: center;
 }
