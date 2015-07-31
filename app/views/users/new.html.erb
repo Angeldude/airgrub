@@ -2,21 +2,21 @@
 
 <%=form_for User.new do |f| %>
 <div class="field">
-<%=f.label :email %>
-<%=f.text_field :email %>
+  <%=f.label :email %>
+  <%=f.text_field :email %>
 </div>
 <div class="field">
-<%=f.label :password %>
-<%=f.password_field :password %>
+  <%=f.label :password %>
+  <%=f.password_field :password %>
 </div>
 <div class="field">
-<%=f.label :password_confirmation %>
-<%=f.password_field :password_confirmation %>
-<%= f.hidden_field :admin, value: false %>
+  <%=f.label :password_confirmation %>
+  <%=f.password_field :password_confirmation %>
+  <%= f.hidden_field :admin, value: false %>
 </div>
 <div class="actions">
-<%=f.submit "Sign up" %>
-<% end %>
+  <%=f.submit "Sign up" %>
+  <% end %>
 </div>
 
 <%= link_to 'Home', root_path %>
