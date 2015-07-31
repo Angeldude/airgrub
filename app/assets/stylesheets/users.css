@@ -2,35 +2,52 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
-
 ul {
   list-style: none;
 }
+
+
 body.first {
   background-image: url('//i1031.photobucket.com/albums/y375/Stevie_Pinero/313129-earth-from-space-picsay_zps69t42vpd.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#header {
-  color: #8A2BE2;
-  font-size: 2em;
-}
-#header:hover {
-  color: #999999;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-header p {
-  color: #8A2BE2;
-}
-ul.DeliveryOptions li {
-  display: inline;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
-#faq {
-  background-color: orange;
-  border-radius: 1em;
-  border-color: black;
+#header {
+  color: orange;
+  font-size: 2em;
   text-align: center;
-  color: black;
 }
+
+#header:hover {
+		color: #999999;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+header p {
+  color: orange;
+
+}
+
+#mainmenu {
+  text-align: center;
+
+}
+
+.button {
+display: block;
+width: 115px;
+height: 25px;
+background: orange;
+padding: 10px;
+text-align: center;
+border-radius: 5px;
+color: white;
+font-weight: bold;
+margin: 1em;
+}
+
+ul.DeliveryOptions li {
+        display:inline;
+      }
