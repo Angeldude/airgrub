@@ -11,9 +11,12 @@ ol {
 }
 
 body {
-  background-image: url('//criticalexaminer.files.wordpress.com/2014/04/super-market-vegetable-rainbow-display.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: url('//criticalexaminer.files.wordpress.com/2014/04/super-market-vegetable-rainbow-display.jpeg') no-repeat center center fixed;
+    /*background-size: cover;
+    background-repeat: no-repeat;*/
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;  /* Opera */
 
 }
 

@@ -8,9 +8,12 @@ ul {
 
 
 body.first {
-  background-image: url('//i1031.photobucket.com/albums/y375/Stevie_Pinero/313129-earth-from-space-picsay_zps69t42vpd.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: url('//i1031.photobucket.com/albums/y375/Stevie_Pinero/313129-earth-from-space-picsay_zps69t42vpd.jpg') no-repeat center center fixed;
+    /*background-size: cover;
+    background-repeat: no-repeat;*/
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;  /* Opera */
 
 }
 
