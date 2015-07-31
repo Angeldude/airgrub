@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get '/log-out' => 'sessions#destroy', as: :log_out
 
   get 'signup' => 'users#new'
+
+  get '/faq' => 'users#faq'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
